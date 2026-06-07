@@ -1,6 +1,7 @@
 from django.db import models
-from . import Actor, Director, Genre
-
+from .actor import Actor
+from .director import Director
+from .genre import Genre
 class Movie(models.Model):
     title = models.CharField(max_length=400)
     description = models.CharField(max_length=500)

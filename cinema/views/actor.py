@@ -2,6 +2,7 @@ from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIV
 from ..models import Actor
 from ..serializers import ActorSerializer
 from api.permissions import MyAuthenticatedOrReadOnly
+
 class ActorApiView(ListCreateAPIView):
     queryset = Actor.objects.all()
     serializer_class = ActorSerializer

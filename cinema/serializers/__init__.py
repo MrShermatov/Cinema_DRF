@@ -1,5 +1,5 @@
 from .actor import ActorSerializer
 from .director import DirectorSerializer
-from .genre import GenreSerializer
-from .movie import MovieReadSerializer, MovieWriteSerializer
+from .genre import GenreSerializer, GenreWriteSerializer
+from .movie import MovieReadSerializer, MovieWriteSerializer, MovieReadSerializerForGenre
 from .comment import CommentSerializer

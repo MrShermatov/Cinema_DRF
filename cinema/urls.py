@@ -14,7 +14,7 @@ urlpatterns = [
 
     # <-------Start Genre URl------------>
     path('genre/', views.GenreApiView.as_view()),
-    path('genre/<int:pk>/', views.GenreRetrieveApiView.as_view()),
+    path('genre/<int:pk>/', views.GenreRetrieveApiView.as_view(), name='genre-detail'),
     # <-------End Genre URl------------>
 
     # <-------Start Director URl------------>

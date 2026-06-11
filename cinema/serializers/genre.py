@@ -1,6 +1,6 @@
 from django.db.models import Model
 
-from models.movie import Movie
+from ..models.movie import Movie
 from ..models.genre import Genre
 from rest_framework import serializers
 

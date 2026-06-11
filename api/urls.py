@@ -23,7 +23,9 @@ from api.settings import MEDIA_ROOT
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('cinema.urls'))
+    path('api/', include('cinema.urls')),
+    path('auth/', include('djoser.urls')),
+    path('authentication/', include('djoser.urls.authtoken')),
 ]
 
 if settings.DEBUG:

@@ -1,5 +1,5 @@
-from .actor import ActorApiView, ActorRetrieveApiView
-from .genre import GenreApiView, GenreRetrieveApiView
-from .director import DirectorApiView, DirectorRetrieveApiView
+from .actor import ActorAPIViewSet
+from .genre import GenreAPIViewSet
+from .director import DirectorAPIViewSet
 from .movie import MovieViewSet
-from .comment import CommentApiview, CommentRetrieveApiView
+from .comment import CommentApiViewSet
